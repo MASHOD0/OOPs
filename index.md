@@ -1,8 +1,6 @@
 ---
 title: Home
 layout: home
-title: Object
-layout: #Object
 ---
 
 # Introduction
@@ -14,6 +12,11 @@ layout: #Object
 5. Association
 6. Composition
 7. Aggregation
+
+---
+title: Object
+layout: home
+---
 # Object 
 The object is an entity that has a state and behavior associated with it. It may be any real-world object like a mouse, keyboard, chair, table, pen, etc. Integers, strings, floating-point numbers, even arrays, and dictionaries, are all objects. More specifically, any single integer or any single string is an object. The number 12 is an object, the string “Hello, world” is an object, a list is an object that can hold other objects, and so on. You’ve been using objects all along and may not even realize it.
 
