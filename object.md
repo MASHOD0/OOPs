@@ -32,7 +32,7 @@ In python we come accross a lot of objects without knowing them a lot of the com
 >>> type(y)   
 <class 'float'>
 ```
-[functions are also objects](/Objects/function_object.py)
+[functions are also objects](Code/Objects/function_object.py)
 
 
 These are called builtin types and function differently from other objects.
