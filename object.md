@@ -39,11 +39,11 @@ These are called builtin types and function differently from other objects.
 
 
 
-## Init method in python 
+## **Init** method in python 
 
 - Similar to constructors in [Java](https://www.geeksforgeeks.org/constructors-in-java/) and [C++](https://www.geeksforgeeks.org/constructors-c/).
 
-### What is self in class ?
+### What is self in class?
 
 When we create an object for the class and call the function, the self is replaced with the created object. It is like a placeholder for the object. In the class we created, we have two variables common to all the objects we create. Hence, even if we called the variables with the object name, we will get the same values for all the objects.
 
