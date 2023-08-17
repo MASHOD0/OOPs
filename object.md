@@ -84,7 +84,7 @@ earth = planet ('earth', 3)
 earth. function ()  
 
 ```
-here we can create methods which modify the attributes `name` and `number` called `get_name` and `get_number` respectively.
+here we can create methods which modify the attributes `name` and `number` called `set_name` and `set_number` to get these attributes we use `get_name` and `get_number` methods respectively.
 ``` python
 class planet:  
     def __init__ (self, name, number):  
@@ -95,15 +95,21 @@ class planet:
         print ("I am", self. name)  
         print ("I am the", self. number, "planet in the solar system")  
 
-    def get_name(self, name):
+    def set_name(self, name):
         self.name = name
 
-    def get_number(self, number):
+    def set_number(self, number):
         self.number = number
+    
+    def get_name(self):
+        return name
+    
+    def get_number(self):
+        return number
 
 
 earth = planet ('earth', 3)  
 earth. function ()  
 
 ```
-This is similar to [setter method in java](https://www.w3schools.com/java/java_encapsulation.asp). For more on this refer the Encapsulation section.
+This is similar to [getter and setter method in java](https://www.w3schools.com/java/java_encapsulation.asp). For more on this refer the Encapsulation section.
