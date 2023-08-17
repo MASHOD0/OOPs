@@ -10,6 +10,6 @@ Example: House has-a Room. Here the room can’t exist without the house.
 
 Composition is said to be better than inheritance.
 
-(Composition vs Inheritance)[https://www.digitalocean.com/community/tutorials/composition-vs-inheritance]
+[Composition vs Inheritance](https://www.digitalocean.com/community/tutorials/composition-vs-inheritance)
 
 
