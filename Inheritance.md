@@ -16,7 +16,7 @@ Inheritance is the capability of one class to derive or inherit the properties f
 - Hierarchical Inheritance: Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
 - Multiple Inheritance: Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
 ### Inheritance in Python
-```python
+``` python
 # Python code to demonstrate how parent constructors
 # are called.
 
@@ -58,5 +58,6 @@ a = Employee('Rahul', 886012, 200000, "Intern")
 # its instance
 a.display()
 a.details()
+
 ```
 In the above example, we have created two classes i.e. Person (parent class) and Employee (Child Class). The Employee class inherits from the Person class. We can use the methods of the person class through the employee class as seen in the display function in the above code. A child class can also modify the behavior of the parent class as seen through the details() method.
