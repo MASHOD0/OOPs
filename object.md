@@ -14,15 +14,13 @@ An object consists of:
 
 
 To understand the state, behavior, and identity let us take the example of the class dog. 
-``` python
-class Dog:
-    pass
-```
 
-The identity can be considered as the name of the dog.
-State or Attributes can be considered as the breed, age, or color of the dog.
-The behavior can be considered as to whether the dog is eating or sleeping.
+- The identity can be considered as the name of the dog.
+- State or Attributes can be considered as the breed, age, or color of the dog.
+- The behavior can be considered as to whether the dog is eating or sleeping.
 
+
+## Builtin types in python
 In python we come accross a lot of objects without knowing them a lot of the common data types like `int`, `str` and all are objects here is a simple experiment to find out 
 ``` python
 >>> type('hello world')
@@ -35,3 +33,37 @@ In python we come accross a lot of objects without knowing them a lot of the com
 <class 'float'>
 ```
 [functions are also objects](/Objects/function_object.py)
+
+
+These are called builtin types and function differently from other objects.
+
+![Alt text](image.png)
+
+## Init method in ptyhon 
+
+- Similar to constructors in [Java](https://www.geeksforgeeks.org/constructors-in-java/) and [C++](https://www.geeksforgeeks.org/constructors-c/).
+
+### What is self in class ?
+
+When we create an object for the class and call the function, the self is replaced with the created object. It is like a placeholder for the object. In the class we created, we have two variables common to all the objects we create. Hence, even if we called the variables with the object name, we will get the same values for all the objects.
+
+### What '__init__' can do ?
+1. Every object could have its values for the attributes of a class. This functionality can be acheived using the `__init__` method.
+2. It is a constructor, allowing class to hold objects with different values.
+3. We need not call it like we call a normal method. It is similar to a method inside a class. It is executed as soon as an object is created for the class.
+
+``` python
+class planet:  
+    def __init__ (self, name, number):  
+        self. name = name  
+        self. number = number  
+    def function (self):  
+        print ("I am", self. name)  
+        print ("I am the", self. number, "planet in the solar system")  
+          
+earth = planet ('earth', 3)  
+earth. function ()  
+
+```
+![output](https://static.javatpoint.com/python/images/__init__-in-python2.png)
+[source](https://www.javatpoint.com/__init__-in-python)
