@@ -47,7 +47,7 @@ These are called builtin types and function differently from other objects.
 
 When we create an object for the class and call the function, the self is replaced with the created object. It is like a placeholder for the object. In the class we created, we have two variables common to all the objects we create. Hence, even if we called the variables with the object name, we will get the same values for all the objects.
 
-### What '__init__' can do ?
+### What `'__init__'` can do ?
 1. Every object could have its values for the attributes of a class. This functionality can be acheived using the `__init__` method.
 2. It is a constructor, allowing class to hold objects with different values.
 3. We need not call it like we call a normal method. It is similar to a method inside a class. It is executed as soon as an object is created for the class.
