@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recomended Reads and Videos
+title: Recommended Reads and Videos
 nav_order: 9
 ---
 ## Recommended Reads and videos

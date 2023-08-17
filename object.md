@@ -39,7 +39,7 @@ These are called builtin types and function differently from other objects.
 
 
 
-## Init method in ptyhon 
+## Init method in python 
 
 - Similar to constructors in [Java](https://www.geeksforgeeks.org/constructors-in-java/) and [C++](https://www.geeksforgeeks.org/constructors-c/).
 
