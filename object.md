@@ -67,3 +67,43 @@ earth. function ()
 ```
 ![output](https://static.javatpoint.com/python/images/__init__-in-python2.png)
 [source](https://www.javatpoint.com/__init__-in-python)
+
+## Modifying Attributes
+
+Consider the previous example: 
+``` python
+class planet:  
+    def __init__ (self, name, number):  
+        self. name = name  
+        self. number = number  
+    def function (self):  
+        print ("I am", self. name)  
+        print ("I am the", self. number, "planet in the solar system")  
+          
+earth = planet ('earth', 3)  
+earth. function ()  
+
+```
+here we can create methods which modify the attributes `name` and `number` called `get_name` and `get_number` respectively.
+``` python
+class planet:  
+    def __init__ (self, name, number):  
+        self. name = name  
+        self. number = number 
+     
+    def function (self):  
+        print ("I am", self. name)  
+        print ("I am the", self. number, "planet in the solar system")  
+
+    def get_name(self, name):
+        self.name = name
+
+    def get_number(self, number):
+        self.number = number
+
+
+earth = planet ('earth', 3)  
+earth. function ()  
+
+```
+This is similar to [setter method in java](https://www.w3schools.com/java/java_encapsulation.asp). For more on this refer the Encapsulation section.
