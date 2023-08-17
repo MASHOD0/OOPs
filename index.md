@@ -13,6 +13,6 @@ nav_order: 0
 5. Association
 6. Composition
 7. Aggregation
-![img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apollotechnical.com%2Fwhy-object-oriented-programming-matters%2F%3Fexternal_link%3Dtrue&psig=AOvVaw0vSmd8XQ3SfbyyZ0hBUiZd&ust=1692357856060000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOD22bjK44ADFQAAAAAdAAAAABAE)
+![img](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190717114649/Object-Oriented-Programming-Concepts.jpg)
 
 
