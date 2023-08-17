@@ -37,7 +37,7 @@ In python we come accross a lot of objects without knowing them a lot of the com
 
 These are called builtin types and function differently from other objects.
 
-![Alt text](image.png)
+
 
 ## Init method in ptyhon 
 
